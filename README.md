@@ -29,15 +29,17 @@ Compile the source code
 Navigate to the project directory and run:
 
 bash
-```Copy code
+Copy code
+```
 g++ -pthread server.cpp -o server
 g++ client.cpp -o client
 ```
 Usage
 Run the server:
 
-```bash
+bash
 Copy code
+```
 ./server <graph_file_path> <port_number>
 ```
 Run the client:
