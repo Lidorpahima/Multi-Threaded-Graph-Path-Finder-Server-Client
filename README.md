@@ -58,5 +58,3 @@ Open a Pull Request
 Contact 📧
 Lidor Pahima - lidorpa@ac.sce.ac.il
 
-Project Link: https://github.com/Lidorpahima/Multi-Threaded-Graph-Path-Finder-Server-Client
-
