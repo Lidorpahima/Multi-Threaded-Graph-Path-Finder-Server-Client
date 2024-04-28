@@ -24,3 +24,37 @@ Follow these instructions to get the project up and running on your local machin
 
 ```bash
 git clone https://your-repository-link-here.git
+Compile the source code
+Navigate to the project directory and run:
+
+bash
+Copy code
+g++ -pthread server.cpp -o server
+g++ client.cpp -o client
+Usage
+Run the server:
+
+bash
+Copy code
+./server <graph_file_path> <port_number>
+Run the client:
+
+bash
+Copy code
+./client <server_ip> <port_number> <start_vertex> <end_vertex>
+Contributing 🤝
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License 📄
+Distributed under the MIT License. See LICENSE for more information.
+
+Contact 📧
+Your Name - @your_twitter - email@example.com
+
+Project Link: https://github.com/yourusername/your-project-name
+
